@@ -18,7 +18,7 @@ This project is a simple yet effective implementation of an Akan name generator 
 1. Clone the repository
 
 ```bash
-git clone <https://github.com/your-username/akan-name-calculator.git>
+git clone https://george-dev-web.github.io/jsassgn/
 ```
 
 1. Navigate to the project folder
