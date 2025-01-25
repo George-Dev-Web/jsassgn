@@ -24,20 +24,43 @@ document
       return;
     }
 
-    const date = new Date(birthdate);
-    const dayOfWeek = date.getDay();
+    const [year, month, day] = birthdate.split("-").map(Number);
 
-    if (isNaN(dayOfWeek)) {
+    if (!year || !month || !day) {
       output.textContent = "Invalid date. Please enter a valid birthdate.";
       output.style.color = "red";
       return;
     }
 
+    // Adjust month and year for January and February
+    let adjustedMonth = month;
+    let adjustedYear = year;
+    if (month === 1 || month === 2) {
+      adjustedMonth += 12;
+      adjustedYear -= 1;
+    }
+
+    const CC = Math.floor(adjustedYear / 100); // Century
+    const YY = adjustedYear % 100; // Year within century
+
+    // Formula for the day of the week
+    const dayOfWeek = Math.floor(
+      (CC / 4 -
+        2 * CC -
+        1 +
+        Math.floor((5 * YY) / 4) +
+        Math.floor((26 * (adjustedMonth + 1)) / 10) +
+        day) %
+        7
+    );
+
+    const correctedDayOfWeek = (dayOfWeek + 7) % 7; // Ensure non-negative result
+
     let akanName;
     if (gender === "male") {
-      akanName = maleNames[dayOfWeek];
+      akanName = maleNames[correctedDayOfWeek];
     } else if (gender === "female") {
-      akanName = femaleNames[dayOfWeek];
+      akanName = femaleNames[correctedDayOfWeek];
     } else {
       output.textContent = "Invalid gender selected.";
       output.style.color = "red";
