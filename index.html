@@ -6,16 +6,34 @@
     <title>Akan Name Calculator</title>
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
+
   <body>
-    <video autoplay muted loop id="bgVideo">
-      <source src="background/back.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
+    <div class="video-container">
+      <video autoplay muted loop id="background-video">
+        <source src="background/back.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="overlay"></div>
+    </div>
 
     <header>
       <h1>Akan Name Calculator</h1>
+
+      <br />
+
+      <p>
+        <strong>About Akan Culture and Names</strong><br />
+        In Akan culture, names are deeply significant and are given based on the
+        day of the week a person is born, along with their gender. Each day is
+        associated with a unique Akan name, which carries its own meaning and
+        history. By using this form, you can discover your Akan name based on
+        your birthdate and gender, and connect with an important part of
+        Ghanaian tradition.
+      </p>
     </header>
-    <div class="container">
+
+    <div class="content">
       <p>Enter your birthdate and gender to find out your Akan name!</p>
       <form id="akanForm">
         <label for="birthdate">Birthdate:</label>

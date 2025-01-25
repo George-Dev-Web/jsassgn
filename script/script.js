@@ -20,7 +20,7 @@ document
 
     if (!birthdate || !gender) {
       output.textContent = "Please fill out all fields.";
-      output.style.color = "red"; 
+      output.style.color = "red";
       return;
     }
 
@@ -29,7 +29,7 @@ document
 
     if (isNaN(dayOfWeek)) {
       output.textContent = "Invalid date. Please enter a valid birthdate.";
-      output.style.color = "red"; 
+      output.style.color = "red";
       return;
     }
 
@@ -40,10 +40,10 @@ document
       akanName = femaleNames[dayOfWeek];
     } else {
       output.textContent = "Invalid gender selected.";
-      output.style.color = "red"; 
+      output.style.color = "red";
       return;
     }
 
     output.textContent = `Your Akan name is ${akanName}!`;
-    output.style.color = "green"; 
+    output.style.color = "green";
   });
