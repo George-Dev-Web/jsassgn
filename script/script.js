@@ -1,5 +1,5 @@
 const maleNames = [
-  "Kwasi",
+  "kwasi",
   "Kwadwo",
   "Kwabena",
   "Kwaku",
@@ -7,6 +7,7 @@ const maleNames = [
   "Kofi",
   "Kwame",
 ];
+
 const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 document
@@ -32,7 +33,6 @@ document
       return;
     }
 
-    // Adjust month and year for January and February
     let adjustedMonth = month;
     let adjustedYear = year;
     if (month === 1 || month === 2) {
@@ -40,10 +40,9 @@ document
       adjustedYear -= 1;
     }
 
-    const CC = Math.floor(adjustedYear / 100); // Century
-    const YY = adjustedYear % 100; // Year within century
+    const CC = Math.floor(adjustedYear / 100);
+    const YY = adjustedYear % 100;
 
-    // Formula for the day of the week
     const dayOfWeek = Math.floor(
       (CC / 4 -
         2 * CC -
@@ -54,7 +53,7 @@ document
         7
     );
 
-    const correctedDayOfWeek = (dayOfWeek + 7) % 7; // Ensure non-negative result
+    const correctedDayOfWeek = (dayOfWeek + 7) % 7;
 
     let akanName;
     if (gender === "male") {
