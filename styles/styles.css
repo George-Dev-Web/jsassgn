@@ -10,6 +10,7 @@ body {
   color: white;
   text-align: center;
   position: relative;
+  background-color: black;
 }
 header {
   background-color: none;
