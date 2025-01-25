@@ -27,7 +27,7 @@ git clone https://george-dev-web.github.io/jsassgn/
 cd akan-name-calculator
 ```
 
-3. Open `index.html` in a browser
+1. Open `index.html` in a browser
 
 After cloning the repository, simply open the `index.html` file in your browser to run the project locally. There’s no server-side setup required as it’s a client-side JavaScript application.
 
