@@ -71,12 +71,10 @@ When a user enters their birthdate (for example, 1990-04-03) and selects their g
 - **HTML**: Used for structuring the content on the web page.
 - **CSS**: Used for styling the form and overall layout.
 - **JavaScript**: The main programming language used for calculating the Akan name and manipulating the DOM (Document Object Model).
-- **Video Background**: A background video is added to enhance the visual appeal of the webpage.
 
 ## Credits
 
 - **Akan Name Reference**: Based on traditional Akan name conventions.
-- **Video**: Background video provided from a personal collection or public domain source.
 
 ## Contributing
 
