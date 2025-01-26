@@ -4,7 +4,7 @@ A web-based tool that calculates your Akan name based on your birthdate and gend
 
 ## About the Creator
 
-Hi! I'm [Your Name], a tech enthusiast passionate about creating tools that solve real-world problems. The Akan Name Calculator reflects my love for blending technology with culture, inspired by Ghana’s rich heritage.
+Hi! I'm George, a tech enthusiast passionate about creating tools that solve real-world problems. The Akan Name Calculator reflects my love for blending technology with culture, inspired by Ghana’s rich heritage.
 
 This project helps people connect with their roots and see the beauty of traditions through modern tech. I believe technology isn’t just about innovation—it’s a bridge to preserve and share meaningful stories.
 
