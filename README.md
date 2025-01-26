@@ -2,6 +2,14 @@
 
 A web-based tool that calculates your Akan name based on your birthdate and gender. Akan names are culturally significant in Ghana, as they are derived from the day of the week a person is born and their gender.
 
+## About the Creator
+
+Hi! I'm [Your Name], a tech enthusiast passionate about creating tools that solve real-world problems. The Akan Name Calculator reflects my love for blending technology with culture, inspired by Ghana’s rich heritage.
+
+This project helps people connect with their roots and see the beauty of traditions through modern tech. I believe technology isn’t just about innovation—it’s a bridge to preserve and share meaningful stories.
+
+In the future, I plan to build more tools that celebrate cultural diversity and make life simpler. Let’s create something amazing together!
+
 ## Project Overview
 
 This project is a simple yet effective implementation of an Akan name generator using JavaScript. It takes a user's birthdate and gender as inputs, calculates the corresponding Akan name based on traditional Ghanaian naming conventions, and displays the result.
