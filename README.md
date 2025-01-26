@@ -97,6 +97,13 @@ To contribute:
 5. Commit your changes (`git commit -am 'Add new feature'`).
 6. Push to your branch (`git push origin feature/your-feature`).
 7. Create a new Pull Request.
+8. 
+
+
+## Contact information
+
+For suggestions feel free to contact
+[LinkedIn](https://www.linkedin.com/in/george-mwazuna-295943225/)
 
 ## License
 
